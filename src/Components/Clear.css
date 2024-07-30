@@ -1,0 +1,14 @@
+.input-container{
+    position: relative;
+}
+
+.clear-button{
+    position: absolute;
+    transform: translateY(-50%);
+    cursor: pointer;
+    display: none;
+}
+
+.input-container:hover .clear-button{
+    display: block;
+}
